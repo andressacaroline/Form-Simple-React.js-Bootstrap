@@ -1,0 +1,44 @@
+
+.auth-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: 100% 100%;
+    color: #fff; 
+  }
+  
+  .auth-form-container h2 {
+    margin-bottom: 20px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+  }
+  
+  .auth-form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+  }
+  
+  .auth-form-container label {
+    margin-right: 10px;
+  }
+  
+  .auth-form-container input {
+    margin-bottom: 10px;
+  }
+  
+  .auth-form-container button {
+    margin-top: 10px;
+  }
+
+  .auth-form-container {
+    background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
